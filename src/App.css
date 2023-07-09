@@ -2,4 +2,11 @@ html, body{
   background: linear-gradient(180deg, #000 0%, #0B1531 100%);
   background-repeat: no-repeat;
   height: 100%;
+  color: #fff;
+}
+
+.container{
+  width: 1320px;
+  margin: auto;
+  padding: 15px;
 }
