@@ -1,4 +1,4 @@
-import logo from "../assets/logo.svg"
+import logo from "../assets/images/logo.svg"
 const Navbar = () => {
     const menuItem = [
         "Home", "Browse", "Updates", "Pricing"
