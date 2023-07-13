@@ -1,21 +1,59 @@
 html,
 body {
-  background: linear-gradient(180deg, #000 0%, #0B1531 100%);
-  background-repeat: no-repeat;
   height: 100%;
   color: #fff;
+  overflow-x: hidden;
+  background:  linear-gradient(180deg, #000 0%, #0B1531 100%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-  width: 1320px;
   margin: auto;
-  padding: 15px;
+  background: url('./assets/images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media(min-width:1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+@media(max-width:1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media(max-width:768px) {
+  .container {
+    max-width: 768px;
+  }
+  .nav_menu {
+    flex-direction: column;
+    position: absolute;
+    right: -120px;
+  }
+
+}
+
+@media(max-width:640px) {
+  .container {
+    max-width: 640px;
+  }
 }
 
 navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  backdrop-filter: blur(25px);
+  padding: 24px;
 }
 
 .nav_logo {
@@ -46,11 +84,14 @@ navbar {
   all: unset;
   padding: 18px 48px;
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(254, 200, 241, 0.90) 0%, rgba(237, 146, 215, 0.00) 40.39%), radial-gradient(96.63% 140.33% at 76.68% 66.67%, rgba(96, 46, 166, 0.00) 0%, rgba(201, 119, 214, 0.50) 100%);
+  background: var(--button-dark-signup, linear-gradient(180deg, rgba(254, 200, 241, 0.90) 0%, rgba(237, 146, 215, 0.00) 40.39%), radial-gradient(96.63% 140.33% at 76.68% 66.67%, rgba(96, 46, 166, 0.00) 0%, rgba(201, 119, 214, 0.50) 100%));
   background-blend-mode: overlay, normal;
+  /* Sign Up button */
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10), 0px 0px 5px 0px #FFACE4 inset, 0px -1px 8px 0px #9375B6 inset;
-  filter: blur(1px);
+  mix-blend-mode: color-dodge;
   cursor: pointer;
+  filter: blur(1px);
+
 }
 
 .nav_menu .nav_menu-button::after {
