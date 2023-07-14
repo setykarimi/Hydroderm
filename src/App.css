@@ -110,6 +110,7 @@ navbar {
   display: flex;
   justify-content: space-between;
   padding: 24px;
+  gap: 10rem;
 }
 
 .banner .banner-inroducing {
@@ -149,7 +150,8 @@ navbar {
   background: linear-gradient(180deg, rgba(254, 200, 241, 0.90) 0%, rgba(254, 200, 241, 0.00) 40.39%), radial-gradient(137.13% 253.39% at 76.68% 66.67%, #602EA6 0%, #C977D6 100%);
   background-blend-mode: overlay, normal;
   box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.40), 0px 0px 5px 0px #FFACE4 inset, 0px -1px 8px 0px #9375B6 inset;
-  padding: 4px 8px;
+  padding: 6px 14px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -168,4 +170,42 @@ navbar {
   background: conic-gradient(from 180deg at 50% 50.00%, #6C35AF 107.08382606506348deg, #CC75DB 177.4898386001587deg, #5137AE 319.5207667350769deg);
   filter: blur(17px);
   z-index: 1;
+}
+
+.card-update {
+  border-radius: 20px;
+  background: var(--layout-dark-landing, linear-gradient(114deg, rgba(27, 51, 81, 0.30) 15.80%, rgba(155, 97, 149, 0.30) 92.73%));
+  box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+  padding: 15px 24px;
+}
+
+.card-update .card-update_title {
+  font-weight: 500;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.card-update .card-update_items {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 0px 20px 20px 0px;
+  background: var(--list-layout-dark-update, linear-gradient(91deg, rgba(17, 16, 24, 0.00) 0%, rgba(17, 16, 24, 0.51) 100%));
+  background-blend-mode: overlay;
+  padding: 20px 100px 20px 20px;
+  margin-top: 10px;
+  /* border-top: 1px solid #3342FF00, #37F4F4, #3342FF00, #00000000, #00000000; */
+}
+
+.card-update .card-update_items .desc .desc-title{
+color: #fff;
+}
+
+.card-update .card-update_items .desc .desc-detail {
+  white-space: nowrap;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.60);
+font-size: 14px;
+font-weight: lighter;
 }
