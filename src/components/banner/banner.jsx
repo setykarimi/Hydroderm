@@ -1,5 +1,6 @@
 import union from '../../assets/images/icons/union.svg'
 import magic from '../../assets/images/icons/magic.svg'
+import BannerUpdateCard from '../cards/card';
 const Banner = () => {
     return (
         <div className="banner">
@@ -18,9 +19,8 @@ const Banner = () => {
                         Generate Images
                     </button>
                 </div>
-
             </div>
-            <div></div>
+            <BannerUpdateCard />
         </div>
     );
 }
