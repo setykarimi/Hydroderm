@@ -47,6 +47,8 @@ const BannerUpdateCard = () => {
                     </div>
                 </div>
             ))}
+
+            <button className='card-update_view-more'>View more</button>
         </div>
     );
 }
