@@ -3,6 +3,7 @@ import permutation from '../../assets/images/icons/permutation.svg'
 import status from '../../assets/images/icons/status.svg'
 import release from '../../assets/images/icons/release.svg'
 import linked from '../../assets/images/icons/linked.svg'
+import arrow from '../../assets/images/icons/arrowRight.svg'
 
 const BannerUpdateCard = () => {
     const cardItems = [
@@ -48,7 +49,10 @@ const BannerUpdateCard = () => {
                 </div>
             ))}
 
-            <button className='card-update_view-more'>View more</button>
+            <button className='card-update_view-more'>
+                <img src={arrow} />
+                View more
+            </button>
         </div>
     );
 }
