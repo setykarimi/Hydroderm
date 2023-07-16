@@ -3,7 +3,7 @@ body {
   height: 100%;
   color: #fff;
   overflow-x: hidden;
-  background: linear-gradient(180deg, #000 0%, #0B1531 100%);
+  background: linear-gradient(180deg, #000 0%, #0b1531 100%);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0;
@@ -12,24 +12,24 @@ body {
 
 .container {
   margin: auto;
-  background: url('./assets/images/bg.png');
+  background: url("./assets/images/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media(min-width:1280px) {
+@media (min-width: 1280px) {
   .container {
     width: 1280px;
   }
 }
 
-@media(max-width:1024px) {
+@media (max-width: 1024px) {
   .container {
     max-width: 1024px;
   }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -39,10 +39,9 @@ body {
     position: absolute;
     right: -120px;
   }
-
 }
 
-@media(max-width:640px) {
+@media (max-width: 640px) {
   .container {
     max-width: 640px;
   }
@@ -85,14 +84,26 @@ navbar {
   all: unset;
   padding: 18px 48px;
   border-radius: 10px;
-  background: var(--button-dark-signup, linear-gradient(180deg, rgba(254, 200, 241, 0.90) 0%, rgba(237, 146, 215, 0.00) 40.39%), radial-gradient(96.63% 140.33% at 76.68% 66.67%, rgba(96, 46, 166, 0.00) 0%, rgba(201, 119, 214, 0.50) 100%));
+  background: var(
+    --button-dark-signup,
+    linear-gradient(
+      180deg,
+      rgba(254, 200, 241, 0.9) 0%,
+      rgba(237, 146, 215, 0) 40.39%
+    ),
+    radial-gradient(
+      96.63% 140.33% at 76.68% 66.67%,
+      rgba(96, 46, 166, 0) 0%,
+      rgba(201, 119, 214, 0.5) 100%
+    )
+  );
   background-blend-mode: overlay, normal;
   /* Sign Up button */
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10), 0px 0px 5px 0px #FFACE4 inset, 0px -1px 8px 0px #9375B6 inset;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1),
+    0px 0px 5px 0px #fface4 inset, 0px -1px 8px 0px #9375b6 inset;
   mix-blend-mode: color-dodge;
   cursor: pointer;
   filter: blur(1px);
-
 }
 
 .nav_menu .nav_menu-button::after {
@@ -117,8 +128,12 @@ navbar {
   all: unset;
   padding: 4px 6px;
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.05) 100%);
-  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.50);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.5);
   color: #fff;
   display: flex;
   align-items: center;
@@ -128,7 +143,7 @@ navbar {
 
 .banner .banner-title {
   font-size: 96px;
-  background: linear-gradient(155deg, #CC51D6 0%, #5A68E8 100%, #E1B1FF 100%);
+  background: linear-gradient(155deg, #cc51d6 0%, #5a68e8 100%, #e1b1ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
@@ -136,7 +151,7 @@ navbar {
 
 .banner .banner-desc {
   font-weight: lighter;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .banner .banner-generate {
@@ -147,9 +162,15 @@ navbar {
 .banner .banner-generate button {
   all: unset;
   border-radius: 10px;
-  background: linear-gradient(180deg, rgba(254, 200, 241, 0.90) 0%, rgba(254, 200, 241, 0.00) 40.39%), radial-gradient(137.13% 253.39% at 76.68% 66.67%, #602EA6 0%, #C977D6 100%);
+  background: linear-gradient(
+      180deg,
+      rgba(254, 200, 241, 0.9) 0%,
+      rgba(254, 200, 241, 0) 40.39%
+    ),
+    radial-gradient(137.13% 253.39% at 76.68% 66.67%, #602ea6 0%, #c977d6 100%);
   background-blend-mode: overlay, normal;
-  box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.40), 0px 0px 5px 0px #FFACE4 inset, 0px -1px 8px 0px #9375B6 inset;
+  box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.4),
+    0px 0px 5px 0px #fface4 inset, 0px -1px 8px 0px #9375b6 inset;
   padding: 6px 14px;
   font-size: 14px;
   display: flex;
@@ -160,21 +181,33 @@ navbar {
 }
 
 .banner .banner-generate::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   right: 0;
   position: absolute;
-  background: conic-gradient(from 180deg at 50% 50.00%, #6C35AF 107.08382606506348deg, #CC75DB 177.4898386001587deg, #5137AE 319.5207667350769deg);
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #6c35af 107.08382606506348deg,
+    #cc75db 177.4898386001587deg,
+    #5137ae 319.5207667350769deg
+  );
   filter: blur(17px);
   z-index: 1;
 }
 
 .card-update {
   border-radius: 20px;
-  background: var(--layout-dark-landing, linear-gradient(114deg, rgba(27, 51, 81, 0.30) 15.80%, rgba(155, 97, 149, 0.30) 92.73%));
+  background: var(
+    --layout-dark-landing,
+    linear-gradient(
+      114deg,
+      rgba(27, 51, 81, 0.3) 15.8%,
+      rgba(155, 97, 149, 0.3) 92.73%
+    )
+  );
   box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(30px);
   padding: 15px 24px;
@@ -193,31 +226,47 @@ navbar {
   gap: 20px;
   align-items: center;
   border-radius: 0px 20px 20px 0px;
-  background: var(--list-layout-dark-update, linear-gradient(91deg, rgba(17, 16, 24, 0.00) 0%, rgba(17, 16, 24, 0.51) 100%));
+  background: var(
+    --list-layout-dark-update,
+    linear-gradient(91deg, rgba(17, 16, 24, 0) 0%, rgba(17, 16, 24, 0.51) 100%)
+  );
   background-blend-mode: overlay;
   padding: 20px 100px 20px 20px;
   margin-top: 10px;
   /* border-top: 1px solid #3342FF00, #37F4F4, #3342FF00, #00000000, #00000000; */
 }
 
-.card-update .card-update_items .desc .desc-title{
-color: #fff;
+.card-update .card-update_items .desc .desc-title {
+  color: #fff;
 }
 
 .card-update .card-update_items .desc .desc-detail {
   white-space: nowrap;
   margin: 0;
-  color: rgba(255, 255, 255, 0.60);
-font-size: 14px;
-font-weight: lighter;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: lighter;
 }
 
-.card-update .card-update_view-more{
+.card-update .card-update_view-more {
   border-radius: 10px;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 48.05%, rgba(0, 0, 0, 0.20) 48.90%), linear-gradient(180deg, rgba(49, 58, 91, 0.00) 0%, #313A5B 78.91%, rgba(49, 58, 91, 0.22) 100%);
-box-shadow: 0px 14px 20px 0px rgba(42, 51, 83, 0.80);
-color: #fff;
-margin: 15px auto;
-padding: 10px 30px;
-border: none;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 48.05%,
+      rgba(0, 0, 0, 0.2) 48.9%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(49, 58, 91, 0) 0%,
+      #313a5b 78.91%,
+      rgba(49, 58, 91, 0.22) 100%
+    );
+  box-shadow: 0px 14px 20px 0px rgba(42, 51, 83, 0.8);
+  color: #fff;
+  margin: 15px auto;
+  padding: 10px 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
