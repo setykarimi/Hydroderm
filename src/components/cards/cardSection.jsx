@@ -3,7 +3,7 @@ const CardSection = () => {
         <div className="card-section">
             <img src="" alt=""/>
             <div className="card-section_details">
-                <h3 className="card-section_details-title"></h3>
+                <h3 className="card-section_details-title">title</h3>
                 <div className="card-section_details_desc">
                     <span className="card-section_details_desc-title"></span>
                     <p className="card-section_details_desc-detail"></p>
