@@ -1,18 +1,31 @@
+import img from '../../assets/images/usingDiscord.png'
 const CardSection = () => {
-    return ( 
-        <div className="card-section">
-            <img src="" alt=""/>
-            <div className="card-section_details">
-                <h3 className="card-section_details-title">title</h3>
-                <div className="card-section_details_desc">
-                    <span className="card-section_details_desc-title"></span>
-                    <p className="card-section_details_desc-detail"></p>
+    return (
+        <div className='cards-sections'>
+            <Card />
+            <Card />
+            <Card />
+        </div>
+    );
+}
+
+export default CardSection;
+
+const Card = () => {
+    return (
+        <div className="card">
+            <img src={img} alt="" />
+            <div className="card_details">
+                <h3 className="card_details-title">Using Discord</h3>
+                <div className="card_details_desc">
+                    <span className="card_details_desc-title">Mastering the Art of Prompt Writing</span>
+                    <p className="card_details_desc-detail">
+                    Prompt writing involves crafting clear and engaging prompts, while using images to create a visual representation of the idea or concept.
+                    </p>
                 </div>
 
-                <button className="card-section_button"></button>
+                <button className="card_button">Join Discord</button>
             </div>
         </div>
-     );
+    )
 }
- 
-export default CardSection;
