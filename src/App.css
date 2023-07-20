@@ -84,19 +84,13 @@ navbar {
   all: unset;
   padding: 18px 48px;
   border-radius: 10px;
-  background: var(
-    --button-dark-signup,
-    linear-gradient(
-      180deg,
-      rgba(254, 200, 241, 0.9) 0%,
-      rgba(237, 146, 215, 0) 40.39%
-    ),
-    radial-gradient(
-      96.63% 140.33% at 76.68% 66.67%,
-      rgba(96, 46, 166, 0) 0%,
-      rgba(201, 119, 214, 0.5) 100%
-    )
-  );
+  background: var(--button-dark-signup,
+      linear-gradient(180deg,
+        rgba(254, 200, 241, 0.9) 0%,
+        rgba(237, 146, 215, 0) 40.39%),
+      radial-gradient(96.63% 140.33% at 76.68% 66.67%,
+        rgba(96, 46, 166, 0) 0%,
+        rgba(201, 119, 214, 0.5) 100%));
   background-blend-mode: overlay, normal;
   /* Sign Up button */
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1),
@@ -128,11 +122,9 @@ navbar {
   all: unset;
   padding: 4px 6px;
   border-radius: 8px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.05) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.05) 100%);
   box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.5);
   color: #fff;
   display: flex;
@@ -162,11 +154,9 @@ navbar {
 .banner .banner-generate button {
   all: unset;
   border-radius: 10px;
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(254, 200, 241, 0.9) 0%,
-      rgba(254, 200, 241, 0) 40.39%
-    ),
+      rgba(254, 200, 241, 0) 40.39%),
     radial-gradient(137.13% 253.39% at 76.68% 66.67%, #602ea6 0%, #c977d6 100%);
   background-blend-mode: overlay, normal;
   box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.4),
@@ -188,26 +178,20 @@ navbar {
   left: 0;
   right: 0;
   position: absolute;
-  background: conic-gradient(
-    from 180deg at 50% 50%,
-    #6c35af 107.08382606506348deg,
-    #cc75db 177.4898386001587deg,
-    #5137ae 319.5207667350769deg
-  );
+  background: conic-gradient(from 180deg at 50% 50%,
+      #6c35af 107.08382606506348deg,
+      #cc75db 177.4898386001587deg,
+      #5137ae 319.5207667350769deg);
   filter: blur(17px);
   z-index: 1;
 }
 
 .card-update {
   border-radius: 20px;
-  background: var(
-    --layout-dark-landing,
-    linear-gradient(
-      114deg,
-      rgba(27, 51, 81, 0.3) 15.8%,
-      rgba(155, 97, 149, 0.3) 92.73%
-    )
-  );
+  background: var(--layout-dark-landing,
+      linear-gradient(114deg,
+        rgba(27, 51, 81, 0.3) 15.8%,
+        rgba(155, 97, 149, 0.3) 92.73%));
   box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(30px);
   padding: 15px 24px;
@@ -226,10 +210,8 @@ navbar {
   gap: 20px;
   align-items: center;
   border-radius: 0px 20px 20px 0px;
-  background: var(
-    --list-layout-dark-update,
-    linear-gradient(91deg, rgba(17, 16, 24, 0) 0%, rgba(17, 16, 24, 0.51) 100%)
-  );
+  background: var(--list-layout-dark-update,
+      linear-gradient(91deg, rgba(17, 16, 24, 0) 0%, rgba(17, 16, 24, 0.51) 100%));
   background-blend-mode: overlay;
   padding: 20px 100px 20px 20px;
   margin-top: 10px;
@@ -250,18 +232,95 @@ navbar {
 
 .card-update .card-update_view-more {
   border-radius: 10px;
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(0, 0, 0, 0) 48.05%,
-      rgba(0, 0, 0, 0.2) 48.9%
-    ),
-    linear-gradient(
-      180deg,
+      rgba(0, 0, 0, 0.2) 48.9%),
+    linear-gradient(180deg,
       rgba(49, 58, 91, 0) 0%,
       #313a5b 78.91%,
-      rgba(49, 58, 91, 0.22) 100%
-    );
+      rgba(49, 58, 91, 0.22) 100%);
   box-shadow: 0px 14px 20px 0px rgba(42, 51, 83, 0.8);
+  color: #fff;
+  margin: 15px auto;
+  padding: 10px 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.cards-sections {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 24px;
+}
+
+.cards-sections .card .card_details {
+  padding: 24px;
+  fill: linear-gradient(180deg, rgba(49, 58, 91, 0.00) 4.57%, rgba(49, 58, 91, 0.44) 26.36%, #313A5B 92.56%);
+  backdrop-filter: blur(10px);
+  margin-top: -42px;
+  border-radius: 20px;
+}
+
+.cards-sections .card img {
+  width: 100%;
+}
+
+.cards-sections .card .card_details-title {
+  position: relative;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.cards-sections .card .card_details-title::before {
+  display: block;
+  content: "";
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(90deg, rgba(249, 248, 247, 0.00) 0%, #45075a 9.09%, rgba(249, 248, 247, 0.00) 100%);
+  background-blend-mode: overlay;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 45px;
+}
+
+.cards-sections .card .card_details-title::after {
+  display: block;
+  content: "";
+  border-radius: 10px 10px 0px 0px;
+  filter: blur(5px);
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+
+.cards-sections .card .card_details_desc-title {
+  font-weight: 500;
+  color: #BCBEC7;
+  font-size: 18px;
+}
+
+.cards-sections .card .card_details_desc-detail {
+  margin: 5px 0px;
+  color: #A0A3B0;
+}
+
+.cards-sections .card .card_button{
+  border-radius: 10px;
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 48.05%,
+      rgba(0, 0, 0, 0.2) 48.9%),
+    linear-gradient(180deg,
+      rgba(49, 58, 91, 0) 0%,
+      #313a5b 78.91%,
+      rgba(49, 58, 91, 0.22) 100%);
+  box-shadow: 0px 4px 20px 0px rgba(42, 51, 83, 0.8);
   color: #fff;
   margin: 15px auto;
   padding: 10px 30px;
