@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Digi-hamishe";
+    src: url(assets/fonts/Digi-Hamishe-Regular.ttf) format('truetype'),
+    url(assets/fonts/Digi-Hamishe-Regular.otf) format('otf')
+}
+
+@font-face {
+    font-family: "Digi-hamishe-bold";
+    src: url(assets/fonts/Digi-Hamishe-Bold.ttf) format('truetype'),
+    url(assets/fonts/Digi-Hamishe-Bold.otf) format('otf')
+}
+
+html,body{
+    font-family: "Digi-hamishe";
+    direction: rtl;
+}
+
+.font-bold{
+    font-family: "Digi-hamishe-bold";
+}
