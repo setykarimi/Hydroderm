@@ -3,10 +3,9 @@ import Navbar from './layout/navabr'
 
 function App() {
   return (
-    <div className='container mx-auto'>
+    <div className='lg:container lg:px-0 px-4 mx-auto'>
       <Navbar />
-     <h1 className='font-bold'>هیدرودرم</h1>
-     </div>
+    </div>
   )
 }
 
