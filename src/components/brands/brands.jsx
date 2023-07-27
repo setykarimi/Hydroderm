@@ -129,7 +129,7 @@ const Hydroderm = () => {
     return (
         <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
-                <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
+                <div className="bg-white w-14 h-14 px-2 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermLogo} />
                 </div>
                 <span className="block font-bold text-xl mt-4 ">
