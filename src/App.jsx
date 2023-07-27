@@ -5,6 +5,7 @@ import HeroSection from './components/hero/heroSection'
 import OnlineShop from './components/onlineShop/onlineShop'
 import Popular from './components/popular/popular'
 import SpecialProduct from './components/specialProduct/specialProduct'
+import Footer from './layout/footer'
 import Navbar from './layout/navabr'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <SpecialProduct />
       <OnlineShop />
       <Blog />
+      <Footer />
     </div>
   )
 }
