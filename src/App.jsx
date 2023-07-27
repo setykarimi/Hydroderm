@@ -2,6 +2,7 @@ import './App.css'
 import Brands from './components/brands/brands'
 import HeroSection from './components/hero/heroSection'
 import Popular from './components/popular/popular'
+import SpecialProduct from './components/specialProduct/specialProduct'
 import Navbar from './layout/navabr'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <Brands />
       <Popular />
+      <SpecialProduct />
     </div>
   )
 }
