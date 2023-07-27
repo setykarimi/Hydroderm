@@ -43,8 +43,8 @@ export default Brands;
 
 const HydrodermEsssense = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex justify-between items-center  shadow-xs">
-            <div className="py-4 pr-4 flex flex-col md:items-start items-center">
+        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+            <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermEssenseLogo} />
                 </div>
@@ -64,8 +64,8 @@ const HydrodermEsssense = () => {
 
 const HydrodermMale = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex justify-between items-center lg:col-span-2 col-span-1 shadow-xs">
-            <div className="py-4 pr-4 flex flex-col md:items-start items-center">
+        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center lg:col-span-2 col-span-1 shadow-xs">
+            <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermMaleLogo} />
                 </div>
@@ -85,8 +85,8 @@ const HydrodermMale = () => {
 
 const HydrodermSeptiZone = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex justify-between items-center lg:col-span-2  shadow-xs">
-            <div className="py-4 pr-4 flex flex-col md:items-start items-center">
+        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center lg:col-span-2  shadow-xs">
+            <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermSeptizoneLogo} />
                 </div>
@@ -106,8 +106,8 @@ const HydrodermSeptiZone = () => {
 
 const HydrodermFemale = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex justify-between items-center shadow-xs">
-            <div className="py-4 pr-4 flex flex-col md:items-start items-center">
+        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs">
+            <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermFemaleLogo} />
                 </div>
@@ -127,8 +127,8 @@ const HydrodermFemale = () => {
 
 const Hydroderm = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex justify-between items-center  shadow-xs">
-            <div className="py-4 pr-4 flex flex-col md:items-start items-center">
+        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+            <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermLogo} />
                 </div>
@@ -150,8 +150,8 @@ const Hydroderm = () => {
 
 const HydrodermChildren = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex justify-between items-center  shadow-xs">
-            <div className="py-4 pr-4 flex flex-col md:items-start items-center">
+        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+            <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermChildrenLogo} />
                 </div>
@@ -173,8 +173,8 @@ const HydrodermChildren = () => {
 
 const HydrodermCBD = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex justify-between items-center  shadow-xs">
-            <div className="py-4 pr-4 flex flex-col md:items-start items-center">
+        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+            <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermCBDLogo} />
                 </div>
