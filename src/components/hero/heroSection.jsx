@@ -1,9 +1,7 @@
 
 import hero from "Images/hero/hero-img.png"
 import heroBlur from "Images/hero/hero-img-blur.png"
-
 import heroMobile from "Images/hero/hero-img-mobile.png"
-import heroBlurMobile from "Images/hero/hero-img-blur-mobile.png"
 
 const HeroSection = () => {
     return (

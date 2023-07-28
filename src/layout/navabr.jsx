@@ -2,7 +2,6 @@ import headphone from "Icons/headphone.svg"
 import menu from "Icons/menu.svg"
 import search from "Icons/search.svg"
 import logo from "Images/logo.svg"
-import { useState } from "react"
 
 const Navbar = ({showMenu, setShowMenu}) => {
     const navItem = [
