@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import Blog from './components/blog/blog'
 import Brands from './components/brands/brands'
@@ -9,9 +10,15 @@ import Footer from './layout/footer'
 import Navbar from './layout/navabr'
 
 function App() {
+  const [showMenu, setShowMenu] = useState(null)
+  const hideMenuHandler = () => {
+    setShowMenu(false)
+  }
+
   return (
-    <div className='lg:container px-4 mx-auto'>
-      <Navbar />
+    <div className={`lg:container px-4 mx-auto ${showMenu && 'overflow-hidden'}`}>
+      {showMenu && <div className='h-full blur absolute w-full' onClick={hideMenuHandler}></div>}
+      <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
       <HeroSection />
       <Brands />
       <Popular />
