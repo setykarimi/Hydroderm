@@ -26,14 +26,16 @@ import hydrodermCBDImage from "Images/brands/hydroderm-CBD.png"
 const Brands = () => {
     return (<div>
         <TitleLine name="بِرندها" />
-        <div className="grid lg:grid-cols-3 grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-12 grid-cols-2 gap-4">
             <HydrodermEsssense />
             <HydrodermMale />
+      
             <HydrodermSeptiZone />
             <HydrodermFemale />
             <Hydroderm />
+
             <HydrodermChildren />
-            <HydrodermCBD/>
+            <HydrodermCBD />
         </div>
     </div>);
 }
@@ -43,15 +45,15 @@ export default Brands;
 
 const HydrodermEsssense = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+        <div className="lg:col-span-5 md:col-span-6 col-span-1 bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermEssenseLogo} />
                 </div>
-                <span className="block font-bold text-xl mt-4 ">
+                <span className="block font-bold text-lg mt-4 ">
                     هیدرودرم اِسنس
                 </span>
-                <span className="block text-gray mt-1 md:text-right text-center md:text-base text-xs">ایجاد طراوتی خوش در کنار آبرسانی پوست</span>
+                <span className="block text-gray mt-1 md:text-right md:whitespace-nowrap text-center text-xs">ایجاد طراوتی خوش در کنار آبرسانی پوست</span>
             </div>
 
             <div className="mt-auto md:block hidden">
@@ -64,15 +66,15 @@ const HydrodermEsssense = () => {
 
 const HydrodermMale = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center lg:col-span-2 col-span-1 shadow-xs">
+        <div className="lg:col-span-7 md:col-span-6 col-span-1 bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermMaleLogo} />
                 </div>
-                <span className="block font-bold text-xl mt-4 ">
+                <span className="block font-bold text-lg mt-4 ">
                     هیدرودرم آقایان
                 </span>
-                <span className="block text-gray mt-1 md:text-right text-center md:text-base text-xs">نگاهی متمایز به نیازها و علایق بهداشتی آقایان</span>
+                <span className="block text-gray mt-1 md:text-right md:whitespace-nowrap text-center text-xs">نگاهی متمایز به نیازها و علایق بهداشتی آقایان</span>
             </div>
 
             <div className="mt-auto md:block hidden">
@@ -85,15 +87,15 @@ const HydrodermMale = () => {
 
 const HydrodermSeptiZone = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center lg:col-span-2  shadow-xs">
+        <div className="lg:col-span-7 md:col-span-6 col-span-1 bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermSeptizoneLogo} />
                 </div>
-                <span className="block font-bold text-xl mt-4 ">
+                <span className="block font-bold text-lg mt-4 ">
                     هیدرودرم سپتی زون
                 </span>
-                <span className="block text-gray mt-1 md:text-right text-center md:text-base text-xs">سد دفاعی پوست در برابر انواع ویروس و باکتری</span>
+                <span className="block text-gray mt-1 md:text-right md:whitespace-nowrap text-center text-xs">سد دفاعی پوست در برابر انواع ویروس و باکتری</span>
             </div>
 
             <div className="mt-auto md:block hidden">
@@ -106,19 +108,19 @@ const HydrodermSeptiZone = () => {
 
 const HydrodermFemale = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs">
+        <div className="lg:col-span-5 md:col-span-6 col-span-1 bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs relative">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermFemaleLogo} />
                 </div>
-                <span className="block font-bold text-xl mt-4 ">
+                <span className="block font-bold text-lg mt-4 ">
                     هیدرودرم بانوان
                 </span>
-                <span className="block text-gray mt-1 md:text-right text-center md:text-base text-xs">برای سلامت بانوان در مراحل مختلف زندگی</span>
+                <span className="block text-gray mt-1 md:text-right md:whitespace-nowrap text-center text-xs">برای سلامت بانوان در مراحل مختلف زندگی</span>
             </div>
 
-            <div className=" md:block hidden h-full">
-                <img src={hydrodermFemaleImage} className="h-full object-cover" />
+            <div className="md:block hidden h-full absolute left-4">
+                <img src={hydrodermFemaleImage} className="h-full object-container" />
             </div>
             <div className="mt-auto md:block hidden"><img src={flower} alt="flower" /></div>
         </div>
@@ -127,20 +129,20 @@ const HydrodermFemale = () => {
 
 const Hydroderm = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+        <div className="lg:col-span-4 md:col-span-6 col-span-1 bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs relative">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 px-2 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermLogo} />
                 </div>
-                <span className="block font-bold text-xl mt-4 ">
+                <span className="block font-bold text-lg mt-4 ">
                     هیدرودرم
                 </span>
-                <span className="block text-gray mt-1 md:text-right text-center md:text-base text-xs">
+                <span className="block text-gray mt-1 md:text-right md:whitespace-nowrap text-center text-xs">
                     بالاترین استاندارد محصولات آرایشی بهداشتی
                 </span>
             </div>
 
-            <div className="mb-auto md:block hidden ">
+            <div className="mb-auto md:block hidden absolute left-4 top-0">
                 <img src={hydrodermImage} className="h-28 object-contain" />
             </div>
             <div className="mt-auto md:block hidden"><img src={flower} alt="flower" /></div>
@@ -150,21 +152,21 @@ const Hydroderm = () => {
 
 const HydrodermChildren = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+        <div className="lg:col-span-4 md:col-span-6 col-span-1 bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs relative">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermChildrenLogo} />
                 </div>
-                <span className="block font-bold text-xl mt-4 ">
+                <span className="block font-bold text-lg mt-4 ">
                     هیدرودرم کودکان
                 </span>
-                <span className="block text-gray mt-1 md:text-right text-center md:text-base text-xs">
+                <span className="block text-gray mt-1 md:text-right md:whitespace-nowrap text-center text-xs">
                     سلامت و لبخند برای کودکان دلبندتان
                 </span>
             </div>
 
-            <div className="mb-auto md:block hidden ">
-                <img src={hydrodermChildrenImage} className="h-28 object-contain" />
+            <div className="mb-auto md:block hidden h-full absolute left-10">
+                <img src={hydrodermChildrenImage} className="h-full object-cover" />
             </div>
             <div className="mt-auto md:block hidden"><img src={flower} alt="flower" /></div>
         </div>
@@ -173,21 +175,21 @@ const HydrodermChildren = () => {
 
 const HydrodermCBD = () => {
     return (
-        <div className="bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center  shadow-xs">
+        <div className="lg:col-span-4 md:col-span-6 col-span-1 bg-gradient-to-r from-[#E9EEF7] from-0% to-[#D3DCEE] to-100% rounded-xl flex md:justify-between justify-center items-center shadow-xs relative">
             <div className="py-4 md:pr-4 flex flex-col md:items-start items-center">
                 <div className="bg-white w-14 h-14 flex items-center justify-center rounded-lg shadow-sm">
                     <img src={hydrodermCBDLogo} />
                 </div>
-                <span className="block font-bold text-xl mt-4 ">
+                <span className="block font-bold text-lg mt-4 ">
                     هیدرودرم CBD
                 </span>
-                <span className="block text-gray mt-1 md:text-right text-center md:text-base text-xs">
-التیام بخش قوی و بدون عوارش جانبی
+                <span className="block text-gray mt-1 md:text-right md:whitespace-nowrap text-center text-xs">
+                    التیام بخش قوی و بدون عوارش جانبی
                 </span>
             </div>
 
-            <div className="mb-auto md:block hidden ">
-                <img src={hydrodermCBDImage} className="h-28 object-contain" />
+            <div className="mb-auto md:block hidden h-full absolute top-0 left-6">
+                <img src={hydrodermCBDImage} className="h-full object-contain" />
             </div>
             <div className="mt-auto md:block hidden"><img src={flower} alt="flower" /></div>
         </div>
