@@ -5,21 +5,38 @@
 @font-face {
     font-family: "Digi-hamishe";
     src: url(assets/fonts/Digi-Hamishe-Regular.ttf) format('truetype'),
-    url(assets/fonts/Digi-Hamishe-Regular.otf) format('otf')
+        url(assets/fonts/Digi-Hamishe-Regular.otf) format('otf')
 }
 
 @font-face {
     font-family: "Digi-hamishe-bold";
     src: url(assets/fonts/Digi-Hamishe-Bold.ttf) format('truetype'),
-    url(assets/fonts/Digi-Hamishe-Bold.otf) format('otf')
+        url(assets/fonts/Digi-Hamishe-Bold.otf) format('otf')
 }
 
-html,body{
+html,
+body {
     font-family: "Digi-hamishe";
     direction: rtl;
     background: #E9EEF7;
 }
 
-.font-bold{
+.font-bold {
     font-family: "Digi-hamishe-bold";
+}
+
+@media (min-width: 1300px) {
+    .lg\:container {
+        min-width: 1080px !important;
+        max-width: 1080px !important;
+        padding: 0 30px !important;
+    }
+}
+
+@media (min-width: 1300px) {
+    .lg\:container {
+        min-width: 1080px !important;
+        max-width: 1080px !important;
+        padding: 0 30px !important;
+    }
 }
