@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <div>
             <div className="md:mt-16 my-8 mb-8 flex flex-col justify-center items-center">
-                <h1 className="font-bold text-4xl text-center mb-6"><span className="text-blue">هیدورودرم،</span> راز جوانی و شادابی پوست</h1>
+                <h1 className="font-bold text-4xl text-center mb-6"><span className="text-blue">هیدرودرم</span> راز جوانی و شادابی پوست</h1>
                 <button className="border border-blue text-blue py-2 px-4 rounded-lg text-xs mx-auto font-bold">مشاهده همه محصولات</button>
             </div>
                 <div className="relative w-ful flex justify-center items-center">
