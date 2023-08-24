@@ -3,25 +3,25 @@ import TitleLine from "../title/titleLine";
 import flower from "Images/flowers/flower-line-art.svg"
 
 import hydrodermEssenseLogo from "Images/brands/hydroderm-essense.svg"
-import hydrodermEssenseImage from "Images/brands/hydroderm-essense.png"
+import hydrodermEssenseImage from "Images/brands/hydroderm-essense-1.svg"
 
 import hydrodermMaleLogo from "Images/brands/hydroderm-male.svg"
-import hydrodermMaleImage from "Images/brands/hydroderm-male.png"
+import hydrodermMaleImage from "Images/brands/hydroderm-male-1.svg"
 
 import hydrodermSeptizoneLogo from "Images/brands/hydroderm-septizone.svg"
-import hydrodermSeptizoneImage from "Images/brands/hydroderm-septizone.png"
+import hydrodermSeptizoneImage from "Images/brands/hydroderm-septizone-1.svg"
 
 import hydrodermFemaleLogo from "Images/brands/hydroderm-female.svg"
-import hydrodermFemaleImage from "Images/brands/hydroderm-female.png"
+import hydrodermFemaleImage from "Images/brands/hydroderm-female-1.svg"
 
 import hydrodermLogo from "Images/brands/hydroderm.svg"
-import hydrodermImage from "Images/brands/hydroderm.png"
+import hydrodermImage from "Images/brands/hydroderm-1.svg"
 
 import hydrodermChildrenLogo from "Images/brands/hydroderm-children.svg"
-import hydrodermChildrenImage from "Images/brands/hydroderm-children.png"
+import hydrodermChildrenImage from "Images/brands/hydroderm-children-1.svg"
 
 import hydrodermCBDLogo from "Images/brands/hydroderm-CBD.svg"
-import hydrodermCBDImage from "Images/brands/hydroderm-CBD.png"
+import hydrodermCBDImage from "Images/brands/hydroderm-CBD-1.svg"
 
 const Brands = () => {
     return (<div>
