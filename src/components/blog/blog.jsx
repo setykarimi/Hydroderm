@@ -1,13 +1,13 @@
 import TitleLine from "../title/titleLine";
 
 import hydrodermLogo from "Images/brands/hydroderm.svg"
-import hydrodermBg from "Images/blog/hydroderm.png"
+import hydrodermBg from "Images/blog/hydroderm.svg"
 
 import hydrodermChildrenLogo from "Images/brands/hydroderm-children.svg"
-import hydrodermChildrenBg from "Images/blog/hydroderm-children.png"
+import hydrodermChildrenBg from "Images/blog/hydroderm-children.svg"
 
 import hydrodermCBDLogo from "Images/brands/hydroderm-CBD.svg"
-import hydrodermCBDbg from "Images/blog/hydroderm-CBD.png"
+import hydrodermCBDbg from "Images/blog/hydroderm-CBD.svg"
 
 
 const Blog = () => {
