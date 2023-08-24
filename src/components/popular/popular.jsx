@@ -1,8 +1,8 @@
 import TitleLine from "../title/titleLine";
 
-import deoderant from "Images/popular/deoderant.png"
-import abresan from "Images/popular/abresan.png"
-import bodySplash from "Images/popular/body-splash.png"
+import deoderant from "Images/popular/deoderant.svg"
+import abresan from "Images/popular/abresan.svg"
+import bodySplash from "Images/popular/body-splash.svg"
 
 const Popular = () => {
     return (
