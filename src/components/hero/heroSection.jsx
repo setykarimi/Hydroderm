@@ -1,7 +1,7 @@
 
-import hero from "Images/hero/hero-img.png"
-import heroBlur from "Images/hero/hero-img-blur.png"
-import heroMobile from "Images/hero/hero-img-mobile.png"
+import hero from "Images/hero/hero-img.svg"
+// import heroBlur from "Images/hero/hero-img-blur.png"
+import heroMobile from "Images/hero/hero-img-mobile.svg"
 
 const HeroSection = () => {
     return (
@@ -15,10 +15,10 @@ const HeroSection = () => {
                         <source srcset={hero} media="(min-width: 600px)" />
                         <img src={heroMobile} alt="hero" className="object-cover w-full"/>
                     </picture>
-                    <picture className="absolute -top-10 left-0">
+                    {/* <picture className="absolute -top-10 left-0">
                         <source srcset={heroBlur} media="(min-width: 600px)" />
                         <img src="" />
-                    </picture>
+                    </picture> */}
                 </div>
         </div>
     );
