@@ -2,16 +2,16 @@ import TitleLine from "../title/titleLine"
 import bgWaves from "Images/onlineShop/bg-waves.svg"
 
 import mootanroLogo from "Images/onlineShop/mootanro.svg"
-import mootanroWeb from "Images/onlineShop/mootanro.png"
+import mootanroWeb from "Images/onlineShop/mootanro-1.svg"
 
 import rojaLogo from "Images/onlineShop/roja.svg"
-import rojaWeb from "Images/onlineShop/roja.png"
+import rojaWeb from "Images/onlineShop/roja-1.svg"
 
 import shavajLogo from "Images/onlineShop/shavaj.svg"
-import shavajWeb from "Images/onlineShop/shavaj.png"
+import shavajWeb from "Images/onlineShop/shavaj-1.svg"
 
 import khanoomiLogo from "Images/onlineShop/khanoomi.svg"
-import khanoomiWeb from "Images/onlineShop/khanoomi.png"
+import khanoomiWeb from "Images/onlineShop/khanoomi-1.svg"
 
 
 const OnlineShop = () => {
