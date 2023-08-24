@@ -1,5 +1,5 @@
-import special from 'Images/popular/special.png'
-import specialMobile from 'Images/popular/special-mobile.png'
+import special from 'Images/popular/special.svg'
+import specialMobile from 'Images/popular/special-mobile.svg'
 import flower2 from 'Images/flowers/flower-line-art-2.svg'
 import flower1 from 'Images/flowers/flower-line-art-3.svg'
 
